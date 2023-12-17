@@ -1,0 +1,27 @@
+{
+  "extends": "next/core-web-vitals",
+
+  "rules": {
+    "quotes": [
+      "error",
+      "double",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "curly": [
+      "error",
+      "all"
+    ]
+  },
+
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
